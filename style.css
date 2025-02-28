@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.marquee-box {
+    width: 100%;
+    background-color: #e0f7fa; /* Warna latar belakang */
+    color: #0077b6; /* Warna teks */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek floating */
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#juzTitle {
+    position: sticky;
+    top: 0;
+    background-color: #ADD8E6; /* Warna biru muda */
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    z-index: 1000; /* Pastikan tetap di atas konten lain */
+    border-bottom: 2px solid #0077b6; /* Garis bawah agar lebih jelas */
+}
+
+
+.juz-box {
+    width: 150px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.juz-box h2 {
+    margin: 0 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+/* Styling untuk teks ayat */
+.ayah-text {
+    font-size: 20px;
+    direction: rtl; /* Untuk teks Arab */
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+/* Styling untuk nomor ayat */
+.ayah-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0077b6;
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+/* Styling untuk terjemahan */
+.ayah-translation {
+    color: gray;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Styling untuk ayat wrapper */
+.ayah-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Styling untuk Bismillah */
+.bismillah-box {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #e0f7fa;
+    color: #0077b6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 10px auto; /* Auto untuk posisi tengah */
+    width: fit-content; /* Sesuai panjang teks */
+    max-width: 80%; /* Agar tidak terlalu lebar */
+}
+
+/* Styling tombol audio */
+.audio-btn {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.audio-btn:hover {
+    background-color: #005f73;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0077b6; /* Warna biru tua */
+    color: white; /* Warna teks putih */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffdd57; /* Warna kuning untuk link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
