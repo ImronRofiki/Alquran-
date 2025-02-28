@@ -8,8 +8,8 @@ body {
 
 .marquee-box {
     width: 100%;
-    background-color: #e0f7fa; /* Warna latar belakang */
-    color: #0077b6; /* Warna teks */
+    background-color: #e0f7fa; 
+    color: #0077b6; 
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
@@ -34,14 +34,14 @@ h1 {
 #juzTitle {
     position: sticky;
     top: 0;
-    background-color: #ADD8E6; /* Warna biru muda */
+    background-color: #ADD8E6; 
     padding: 15px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    z-index: 1000; /* Pastikan tetap di atas konten lain */
-    border-bottom: 2px solid #0077b6; /* Garis bawah agar lebih jelas */
+    z-index: 1000; 
+    border-bottom: 2px solid #0077b6;
 }
 
 
@@ -70,15 +70,13 @@ h1 {
     background: #218838;
 }
 
-/* Styling untuk teks ayat */
 .ayah-text {
     font-size: 20px;
-    direction: rtl; /* Untuk teks Arab */
+    direction: rtl; 
     text-align: right;
     margin-bottom: 5px;
 }
 
-/* Styling untuk nomor ayat */
 .ayah-number {
     font-size: 16px;
     font-weight: bold;
@@ -89,7 +87,6 @@ h1 {
     margin-left: 10px;
 }
 
-/* Styling untuk terjemahan */
 .ayah-translation {
     color: gray;
     margin-left: 10px;
@@ -97,7 +94,6 @@ h1 {
     text-align: left;
 }
 
-/* Styling untuk ayat wrapper */
 .ayah-wrapper {
     display: flex;
     flex-direction: column;
@@ -107,7 +103,6 @@ h1 {
     padding-bottom: 10px;
 }
 
-/* Styling untuk Bismillah */
 .bismillah-box {
     display: block;
     text-align: center;
@@ -118,12 +113,12 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    margin: 10px auto; /* Auto untuk posisi tengah */
-    width: fit-content; /* Sesuai panjang teks */
-    max-width: 80%; /* Agar tidak terlalu lebar */
+    margin: 10px auto; 
+    width: fit-content; 
+    max-width: 80%; 
 }
 
-/* Styling tombol audio */
+
 .audio-btn {
     background-color: #0077b6;
     color: white;
@@ -139,8 +134,8 @@ h1 {
 
 .footer {
     width: 100%;
-    background-color: #0077b6; /* Warna biru tua */
-    color: white; /* Warna teks putih */
+    background-color: #0077b6; 
+    color: white; 
     text-align: center;
     padding: 10px;
     position: relative;
@@ -150,7 +145,7 @@ h1 {
 }
 
 .footer a {
-    color: #ffdd57; /* Warna kuning untuk link */
+    color: #ffdd57; 
     text-decoration: none;
     font-weight: bold;
 }
